@@ -13,16 +13,15 @@ export function Header() {
                     <Dialog.Trigger asChild>
                         <NewTransationButton>Nova Transação</NewTransationButton>
                     </Dialog.Trigger>
+                    
                     <Dialog.Portal>
                         <Dialog.Overlay />
-                        
-                    </Dialog.Portal>
-                    
-                    <Dialog.Content>
-                        <Dialog.Title>Nova Transação</Dialog.Title>
-                        <Dialog.Close />
-                    </Dialog.Content>
 
+                        <Dialog.Content>
+                            <Dialog.Title>Nova Transação</Dialog.Title>
+                            <Dialog.Close />
+                        </Dialog.Content>
+                    </Dialog.Portal>
                 </Dialog.Root>
             </HeaderContent>
         </HeaderContainer>
