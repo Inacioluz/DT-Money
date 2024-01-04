@@ -31,7 +31,7 @@ td {
 `;
 
 interface PriceHighlightProps {
-    variant: "income" | "outline";
+    variant: "income" | "outcome";
 }
 
 export const PriceHighlight = styled.span<PriceHighlightProps>`
